@@ -2,10 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Барбершоп «Бородинский» Каталог</title>
+    <title>Каталог</title>
   </head>
   <body>
     <header class="catalog-header">
+      <div class="index-logo">
+        <img src="img/index-logo.png" width="300" height="200" alt="Барбершоп «Бородинский»">
+      </div>
       <div class="container">
         <nav class="main-navigation">
           <ul>
@@ -42,7 +45,7 @@
             <a href="#">Магазин</a>
           </li>
           <li>
-            <a href="#">Средства для ухода</a>
+            Средства для ухода
           </li>
         </ul>
       </div>
@@ -61,13 +64,13 @@
         <input type="checkbox" name="American-Crew" id="crew" checked>
         <label for="crew">American Crew</label>
       </div>
-      <div class="product-group">
+      <div class="product-groups">
         <h2>Группы товаров:</h2>
-        <input type="checkbox" name="belonging" id="belonging">
+        <input type="radio" name="product-group" id="belonging" value="belonging">
         <label for="belonging">Бритвенные принадлежности</label>
-        <input type="checkbox" name="care" id="care" checked>
+        <input type="radio" name="product-group" id="care" value="care" checked>
         <label for="care">Средства для ухода</label>
-        <input type="checkbox" name="accessories" id="accessories">
+        <input type="radio" name="product-group" id="accessories" value="accessories">
         <label for="accessories">Аксессуары</label>
       </div>
       <button type="submit" value="Показать">Показать</button>
@@ -109,7 +112,8 @@
         <a class="page-btn" href="#">3</a>
         <a class="page-btn" href="#">4</a>
       </div>
-      <footer class="catalog-footer">
+    </main>
+    <footer class="catalog-footer">
       <div class="container">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
@@ -129,6 +133,5 @@
         </section>
       </div>
     </footer>
-    </main>
   </body>
 </html>
