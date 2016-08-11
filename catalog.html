@@ -24,7 +24,7 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a class="active">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -51,31 +51,33 @@
           </li>
         </ul>
       </div>
-      <div class="manufacturers">
-        <h2>Производители:</h2>
-        <input type="checkbox" name="baxter-of-california" id="baxter" checked>
-        <label for="baxter">Baxter of california</label>
-        <input type="checkbox" name="Mr-Natty" id="natty">
-        <label for="natty">Mr Natty</label>
-        <input type="checkbox" name="suavecito" id="suavecito" checked>
-        <label for="baxter">Suavecito</label>
-        <input type="checkbox" name="malin+goetz" id="malin">
-        <label for="malin">Malin+Goetz</label>
-        <input type="checkbox" name="murray's" id="murray">
-        <label for="murray">Murray's</label>
-        <input type="checkbox" name="American-Crew" id="crew" checked>
-        <label for="crew">American Crew</label>
-      </div>
-      <div class="product-groups">
-        <h2>Группы товаров:</h2>
-        <input type="radio" name="product-group" id="belonging" value="belonging">
-        <label for="belonging">Бритвенные принадлежности</label>
-        <input type="radio" name="product-group" id="care" value="care" checked>
-        <label for="care">Средства для ухода</label>
-        <input type="radio" name="product-group" id="accessories" value="accessories">
-        <label for="accessories">Аксессуары</label>
-      </div>
-      <button type="submit" value="Показать">Показать</button>
+      <aside class="filters">
+        <div class="manufacturers">
+          <h2>Производители:</h2>
+          <input type="checkbox" name="baxter-of-california" id="baxter" checked>
+          <label for="baxter">Baxter of california</label>
+          <input type="checkbox" name="Mr-Natty" id="natty">
+          <label for="natty">Mr Natty</label>
+          <input type="checkbox" name="suavecito" id="suavecito" checked>
+          <label for="baxter">Suavecito</label>
+          <input type="checkbox" name="malin+goetz" id="malin">
+          <label for="malin">Malin+Goetz</label>
+          <input type="checkbox" name="murray's" id="murray">
+          <label for="murray">Murray's</label>
+          <input type="checkbox" name="American-Crew" id="crew" checked>
+          <label for="crew">American Crew</label>
+        </div>
+        <div class="product-groups">
+          <h2>Группы товаров:</h2>
+          <input type="radio" name="product-group" id="belonging" value="belonging">
+          <label for="belonging">Бритвенные принадлежности</label>
+          <input type="radio" name="product-group" id="care" value="care" checked>
+          <label for="care">Средства для ухода</label>
+          <input type="radio" name="product-group" id="accessories" value="accessories">
+          <label for="accessories">Аксессуары</label>
+        </div>
+        <button type="submit" value="Показать">Показать</button>
+      </aside>
       <section class="catalog">
         <article class="item">
           <a href="catalog-item.html"><img src="img/set-for-travel.jpg" width="220" height="150" alt="Набор для путешествий Baxter of California"></a>
