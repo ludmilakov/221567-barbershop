@@ -117,7 +117,8 @@ h2 {
 .logo-small {
   float: left;
   width: 150px;
-  height: 70px
+  height: 70px;
+  margin-right: 10px;
 }
 
 .filters {
@@ -144,4 +145,22 @@ h2 {
 
 .item:nth-child(3n) {
   margin-right: 0px;
+}
+
+h1 {
+  width: 940px;
+  float: left;
+}
+
+.breadcrumbs {
+  width: 940px;
+  float: left;
+}
+
+.pager {
+  float: left;
+  margin-left: 220px;
+  width: 700px;
+  margin-top: 45px;
+  min-height: 43px;
 }
