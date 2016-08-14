@@ -8,7 +8,6 @@ body {
   min-width: 1122px;
   margin: 0;
   padding: 0;
-  background: url("img/barbershop-shop-1000.jpg") no-repeat;
 }
 
 h1 {
@@ -155,6 +154,8 @@ h1 {
 .breadcrumbs {
   width: 940px;
   float: left;
+  min-height: 60px;
+  margin-bottom: 45px;
 }
 
 .pager {
@@ -163,4 +164,87 @@ h1 {
   width: 700px;
   margin-top: 45px;
   min-height: 43px;
+}
+
+/*стили для catalog-item*/
+.product-card {
+  width: 940px;
+  min-height: 670px;
+}
+
+.product-card-left {
+  float: left;
+  width: 460px;
+  min-height: 670px;
+  margin-right: 90px;
+}
+
+.gallery-item {
+  float: left;
+  width: 460px;
+  height: 500px;
+}
+.gallery-thumbnails-item {
+  float: left;
+  width: 140px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.gallery-thumbnails-item:last-child {
+  margin-right: 0px;
+}
+
+.product-card-right {
+  float: right;
+  width: 390px;
+  min-height: 670px;
+}
+
+.presence {
+  float: left;
+  width: 90px;
+  min-height: 36px;
+}
+
+.article {
+  float: right;
+  width: 140px;
+  min-height: 36px;
+}
+
+.product-description {
+  width: 390px;
+  min-height: 132px;
+  margin-top: 37px;
+}
+
+.existence {
+  width: 390px;
+  min-height: 36px;
+}
+
+.figure {
+  float: left;
+  width: 188px;
+  min-height: 45px;
+}
+
+.price {
+  float: left;
+  width: 110px;
+  min-height: 45px;
+}
+
+.buy {
+  float: right;
+  width: 80px;
+  min-height: 45px;
+}
+
+.composition {
+  float: left;
+  width: 390px;
+  min-height: 170px;
+  margin-top: 67px;
 }
